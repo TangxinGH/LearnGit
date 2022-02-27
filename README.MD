@@ -30,3 +30,13 @@ git reset  什么选项都不跟：指向提交。如果--hard  reset HEAD, inde
 
 解决冲突后 git add .\README.MD 到stage 叹号就不见了
 commit;
+
+所以什么情况下会发生冲突
+
+https://developpaper.com/principle-of-git-merge-recursive-three-way-merge-algorithm/#:~:text=If%20the%20relative%20base%20of,base%20as%20the%20final%20result.&text=The%20above%20is%20the%20basic,%E2%80%9Cthree%2Dway%20merge%E2%80%9D.
+
+http://marklodato.github.io/visual-git-guide/index-zh-cn.html
+
+kiss 原则： 编码之前解决问题；问题拆分足够小。尽量简单
+
+三路合并
