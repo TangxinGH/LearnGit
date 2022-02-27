@@ -44,3 +44,7 @@ kiss 原则： 编码之前解决问题；问题拆分足够小。尽量简单
 git merge --abort 终止合并
 
 add new line
+
+三路合并只要有两路相同就可以合并：基于块
+如果Git在寻找共同祖先时，在参与合并的两个分支上找到了不只一个满足条件的共同祖先，它会先对共同祖先进行合并，建立临时快照。然后，把临时产生的“虚拟祖先”作为合并依据，再对分支进行合并。
+https://morningspace.github.io/tech/git-merge-stories-2/
