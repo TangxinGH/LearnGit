@@ -21,3 +21,5 @@ git checkout file 对应 git add files
 -p
 Revision Graph 刷新不起作用https://gitlab.com/tortoisegit/tortoisegit/-/issues/1663
 git commit --amend 将父亲节点一起提交
+
+detached HEAD
