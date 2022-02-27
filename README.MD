@@ -23,3 +23,10 @@ Revision Graph 刷新不起作用https://gitlab.com/tortoisegit/tortoisegit/-/is
 git commit --amend 将父亲节点一起提交
 
 有人在main分支上新提交了。
+detached HEAD
+
+git reset  什么选项都不跟：指向提交。如果--hard  reset HEAD, index and working tree 。 如 git reset HEAD-3回到三个cOmmit之前 --hard 工作目录会更新
+  --hard                reset HEAD, index and working tree 这里的index指的是暂存区
+
+解决冲突后 git add .\README.MD 到stage 叹号就不见了
+commit;
