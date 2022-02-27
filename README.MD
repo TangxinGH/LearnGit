@@ -40,3 +40,4 @@ http://marklodato.github.io/visual-git-guide/index-zh-cn.html
 kiss 原则： 编码之前解决问题；问题拆分足够小。尽量简单
 
 三路合并
+同一文件修改在下面插入一行
