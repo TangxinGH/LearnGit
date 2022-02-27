@@ -16,6 +16,8 @@ git add -patch select hunks interactively
 
 git.exe daemon --verbose --export-all 创建一个 git 服务器
 
-git reset file 对应 用来撤销最后一次git add : 第一次add ,第二次add： git reset 使用staged 区会恢复到第一次add状态?目前看到的是暂存区被清空了。
+git reset file 对应 用来撤销最后一次git add : 第一次add ,第二次add： git reset 使用staged 区会恢复到第一次add状态?目前看到的是暂存区被清空了。从history 到stage的 对应commit
 git checkout file 对应 git add files 
 -p
+Revision Graph 刷新不起作用https://gitlab.com/tortoisegit/tortoisegit/-/issues/1663
+git commit --amend 将父亲节点一起提交
