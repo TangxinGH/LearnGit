@@ -42,3 +42,5 @@ kiss 原则： 编码之前解决问题；问题拆分足够小。尽量简单
 三路合并s
 同一文件修改在下面插入一行
 git merge --abort 终止合并
+
+add new line
