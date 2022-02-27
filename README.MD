@@ -39,4 +39,5 @@ http://marklodato.github.io/visual-git-guide/index-zh-cn.html
 
 kiss 原则： 编码之前解决问题；问题拆分足够小。尽量简单
 
+这里插入一行
 三路合并
